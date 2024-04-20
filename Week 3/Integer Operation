@@ -1,0 +1,20 @@
+#include <iostream>      
+using namespace std;
+void main() {
+	int a, b, c;
+	cout << "Enter an integer" << endl;
+	cout << "Enter a :"; cin >> a;
+	cout << "Enter b :"; cin >> b;
+	cout << "a*b = " << a * b << endl;
+	cout << "a/b = " << a / b << endl;
+	c = a & b;
+	cout << "a AND b = 0x" << hex << (a & b) << endl;
+	c = a | b;
+	cout << "a OR b = 0x" << hex << (a | b) << endl;
+	c = a ^ b;
+	cout << "a XOR b = 0x" << hex << (a ^ b) << endl;
+	c = a << 2;
+	cout << "a*4 = 0x" << hex << (a << 2) << endl;
+	c = b >> 2;
+	cout << "b/4 = 0x" << hex << (b >> 2) << endl;
+}
