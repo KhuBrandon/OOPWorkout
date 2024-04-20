@@ -1,0 +1,7 @@
+#include <iostream>
+using namespace std;
+void main() {
+	cout << "Kim Minki" << endl;
+	cout << "Kim\n" << "Minki\n";
+	cout << "김민기" << endl;
+}
