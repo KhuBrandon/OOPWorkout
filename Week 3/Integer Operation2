@@ -1,0 +1,25 @@
+#include <iostream>   
+using namespace std;
+void main() {
+	int i, j, k;
+	cout << "Enter an Integer" << endl;
+	cout << "Enter i : "; cin >> i;
+	cout << "Enter j : "; cin >> j;
+	cout << "i++ : " << i++ << endl;
+	cout << "++j : " << ++j << endl;
+	cout << "Result" << endl;
+	cout << "i = " << i << endl;
+	cout << "j = " << j << endl;
+	i += 5;
+	j /= 5;
+	cout << "i+=5 : " << i << endl;
+	cout << "j/=5 : " << j << endl;
+	i = 0xf; j = 0x3;  // i = 1111  j = 0011
+	cout << "i = 0x" << hex << i;
+	cout << "j = 0x" << j << endl;
+	k = i;
+	k &= j;
+	cout << "i &= j : 0x" << k << endl;
+	i ^= j;  
+	cout << "i ^= j : 0x" << i << endl;
+}
