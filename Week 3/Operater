@@ -1,0 +1,12 @@
+#include <iostream>   
+using namespace std;
+void main() {
+	int i, j, n, m;
+	cout << "Enter an Integer" << endl;
+	cout << "Enter i : "; cin >> i;
+	cout << "Enter j : "; cin >> j;
+	cout << "i << 2 : " << (i << 2) << endl;
+	cout << "j >> 2 : " << (j >> 2) << endl;
+	cout << "i & j : " << (i & j) << endl;
+	cout << "i | j : " << (i | j) << endl;
+}
