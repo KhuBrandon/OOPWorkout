@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+struct triangle {
+	float a, b, c,d;
+	triangle() {}
+	triangle(float aa, float bb) :a(aa), b(bb) {
+		c = sqrt(a * a + b * b);
+		d = (a * b) / 2;
+	}
+};
+void main() {
+	triangle aaa;
+	int x, y;
+	cout << "Enter an Integer" << endl;
+	cout << "Enter base : "; cin >> x;
+	cout << "Enter Height : "; cin >> y;
+	aaa = triangle(x, y);
+	cout << "Hypotenuse : " << aaa.c << endl;
+	cout << "Area : " << aaa.d << endl;
+}
