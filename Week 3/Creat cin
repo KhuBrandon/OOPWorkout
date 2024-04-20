@@ -1,0 +1,13 @@
+#include <iostream>      
+using namespace std; 
+void main() {
+    int ii,jj;
+    cout << " Enter an integer : ";
+    cin >> ii;
+    cout << " 5 * " << ii << " = " << 5 * ii << endl;
+    cout << " 6 * " << ii << " = " << 6 * ii << endl;
+    cout << " 7 * " << ii << " = " << 7 * ii << endl;
+    cout << "Enter an integer : ";
+    cin >> ii >> jj;
+    cout << ii << " * " << jj << " = " << jj * ii << endl;
+}
