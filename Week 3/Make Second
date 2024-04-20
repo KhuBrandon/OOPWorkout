@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+void main() {
+	int h, m, s;
+	cout << "Enter Hour : ";
+	cin >> h;
+	cout << "Enter Minute : ";
+	cin >> m;
+	cout << "Enter Second : ";
+	cin >> s;
+	cout << "Total Seconds : " << s + m * 60 + h * 60 * 60;
+}
