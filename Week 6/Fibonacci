@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+void Fibonacci(int i, int j) {
+	int k;
+	while (i + j < 200) {
+		cout << i + j << " ";
+		k = j;
+		j += i;
+		i = k;
+	}
+}
+void main() {
+	int i = 1, j = 2;
+	cout << i << " " << j << " ";
+	Fibonacci(i, j);
+}
