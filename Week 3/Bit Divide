@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+void main() {
+	int a, b, c, d=0;
+	cout << "Enter an Integer" << endl;
+	cout << "Enter a (4~7) : "; cin >> a;
+	cout << "Enter b (4~7) : "; cin >> b;
+	cout << "Enter c (0~3) : "; cin >> c;
+	d = (a << 6);
+	cout << "a00 : " << oct << d << endl;
+	d |= (b << 3);
+	cout << "ab0 : " << d << endl;
+	d |= c;
+	cout << "abc : " << d << endl;
+}
