@@ -1,0 +1,10 @@
+#include <iostream>      
+using namespace std;    
+void main() {
+    short a;
+    cout << "Enter an integer : ";
+    cin >> a;
+    cout << "In Decimal : " << dec << a << endl;
+    cout << "In octomal : " << oct << a << endl;
+    cout << "In Hexadecimal : " << hex << a << endl;
+}
