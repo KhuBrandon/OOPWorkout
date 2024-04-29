@@ -1,0 +1,13 @@
+void setup(){
+  student siha, nouk;  
+  siha = new student(); 
+  nouk = new student(); 
+  println(siha.h + " " + siha.w); 
+  siha.phen();         
+  println(siha.r);
+  nouk.w = 90;         
+  nouk.phen();  
+  println(nouk.h + " " + nouk.w);
+  println(nouk.r);
+  nouk.fc();
+}
