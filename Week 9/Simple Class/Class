@@ -1,0 +1,12 @@
+class student {     
+    student( ) { w = 60; h = 180; g=int(random(60,1000));}  
+    float w, h, r;
+    int g;
+    void phen( ){   
+         r = h/w;
+    }
+    void fc(){
+      if(g>80) println("Good!!");
+      else println("Study!");
+    }
+}
