@@ -1,0 +1,6 @@
+myitem a;
+void setup(){
+  size(800,800);
+  a=new myitem(400,400,20);
+  a.life();
+}
