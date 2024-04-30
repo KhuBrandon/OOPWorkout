@@ -1,0 +1,22 @@
+class myitem{
+  int q,w,dd;
+  myitem(int x, int y, int d){
+    q=x;
+    w=y;
+    dd=d/4;
+  }
+  void life(){
+    fill(255,100,100);
+    square(q-50*dd,w-50*dd,100*dd);
+    rect(q-35*dd,w+50*dd,20*dd,25*dd);
+    rect(q+15*dd,w+50*dd,20*dd,25*dd);
+    fill(255);
+    circle(q,w-25*dd,30*dd);  
+    fill(0);
+    circle(q,w-25*dd,15*dd);
+    rect(q-30*dd,w+5*dd,60*dd,30*dd);
+    fill(255);
+    rect(q-20*dd,w+5*dd,15*dd,10*dd);
+    rect(q+5*dd,w+5*dd,15*dd,10*dd);
+  }
+}
